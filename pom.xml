@@ -25,7 +25,6 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- Cucumber JUnit 5 Platform Engine -->
@@ -33,7 +32,6 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit-platform-engine</artifactId>
             <version>${cucumber.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- JUnit Platform Suite (Необходим для агрегации тестов Cucumber в JUnit 5) -->
@@ -41,13 +39,11 @@
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-suite-api</artifactId>
             <version>${junit.platform.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-suite-engine</artifactId>
             <version>${junit.platform.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- JUnit Jupiter API -->
@@ -55,7 +51,6 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.jupiter.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- JUnit Jupiter Engine -->
@@ -63,7 +58,6 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.jupiter.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- Selenium WebDriver -->
